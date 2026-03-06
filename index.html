@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Defence Technology Portal</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+  <!-- MENU BUTTON -->
+
+<div class="menu-button" onclick="toggleMenu()">
+☰
+</div>
+
+<!-- SIDEBAR MENU -->
+
+<div id="sidebar" class="sidebar">
+
+<h2>Defence Portal</h2>
+
+<a href="/dashboard">📊 Dashboard</a>
+<a href="/students">🎓 Students</a>
+<a href="/teachers">👨‍🏫 Teachers</a>
+<a href="/marks">📈 Marks</a>
+<a href="/timetable">📅 Timetable</a>
+<a href="/subjects">📘 Subjects</a>
+<a href="#">🚀 Activities</a>
+
+</div>  
+
+
+<!-- TOP HEADER -->
+<div class="top-header">
+
+<div class="logo-section">
+
+<img src="/static/images/vjti_logo.png" class="logo">
+
+<div class="college-text">
+<h2>Veermata Jijabai Technological Institute</h2>
+<p>An Autonomous Institute of Government of Maharashtra</p>
+<p>Matunga, Mumbai – 400019</p>
+</div>
+
+</div>
+
+
+</div>
+
+
+<!-- HERO IMAGE -->
+<div class="hero">
+
+<h1>Defence Technology Academic Portal</h1>
+<p>M.Tech Defence Technology Department</p>
+
+</div>
+
+
+<h2 class="section-title">Defence Technology Systems</h2>
+
+<div class="gallery">
+
+<img src="/static/images/missile.jpg">
+<img src="/static/images/tank.jpg">
+<img src="/static/images/akash.jpg">
+<img src="/static/images/tankmissile.jpg">
+<img src="/static/images/fire.jpg">
+
+</div>
+
+</body>
+
+<script>
+
+function toggleMenu(){
+
+var sidebar = document.getElementById("sidebar");
+
+if(sidebar.style.left == "0px"){
+sidebar.style.left = "-250px";
+}
+else{
+sidebar.style.left = "0px";
+}
+
+}
+
+</script>
+</html>
